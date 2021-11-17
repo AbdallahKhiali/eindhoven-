@@ -1,0 +1,59 @@
+.eindhoven{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    background-color:#E5E3DC;
+    overflow: hidden;
+}
+.eindhoven_text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+.eindhoven_image{
+    width: 50%;
+    height: 1024px;
+    background-image: url('../assets/eindhoven.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.eindhoven_title{
+    padding: 50px;
+    font-size: 1em;
+    line-height: 2em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Okomito',sans-serif;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+    font-weight: 400;
+
+   
+}
+.eindhoven_description{
+    padding: 50px;
+    font-size: 1.1em;
+    line-height: 2em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Okomito',sans-serif;
+    width: 300px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 100;
+
+}

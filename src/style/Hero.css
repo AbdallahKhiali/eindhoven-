@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.hero{
+    width: 100%;
+    height: 120vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.hero_title{
+    font-family:'Neue Haas Grotesk Display Pro 15 XXThin';
+    font-weight: 900;
+    font-size: 90px;
+    width: 800px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'MADE Canvas Regular';
+    color: #CECCCA;
+    /* font-family: 'Junicode Italic'; */
+    font-weight: 100;
+    /* font-family:'Junicode ItalicCondensed'; */
+    position: relative;
+    top: -25px;
+}
+
+
+.hero_title_1{
+    position: relative;
+    left: 50px;
+    margin: -10px 0px;
+    
+}
+.hero_title_2{
+    position: relative;
+    left: -10px;
+    margin: -10px 0px;
+
+}
+.hero_title_3{
+    position: relative;
+    left: 120px;
+    margin: -10px 0px;
+
+}
+.hero_title_4{
+    position: relative;
+    left: -100px;
+    margin: -10px 0px;
+
+}
+
+
+
+.hero_title::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 200px;
+    background-color: #4B4E50;
+    top: 50px;
+    left: 0px;
+}
+
+.hero_title_1::before{
+    content :attr(data-text);
+    position: absolute;
+    /* top: 0; */
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    overflow-x: hidden;
+    top: 0px;
+    width: 100%;
+    color: #4B4E50;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.hero_title_2::before{
+    content :attr(data-text);
+    position: absolute;
+    /* top: 0; */
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    overflow-x: hidden;
+    top: 0px;
+    width: 100%;
+    color: #4B4E50;
+    display: flex;
+
+
+}
+.hero_title_3::before{
+    content :attr(data-text);
+    position: absolute;
+    /* top: 0; */
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    overflow-x: hidden;
+    top: 0px;
+    width: 100%;
+    color: #4B4E50;
+    display: flex;
+
+
+}
+.hero_title_4::before{
+    content :attr(data-text);
+    position: absolute;
+    /* top: 0; */
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    overflow-x: hidden;
+    top: 0px;
+    width: 100%;
+    color: #4B4E50;
+    display: flex;
+    justify-content: flex-end;
+
+
+}

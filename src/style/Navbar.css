@@ -1,0 +1,58 @@
+.navbar{
+    height: 90px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 15;
+    
+}
+
+.nav_item{
+    margin: 0px 50px ;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Okomito',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    
+  }
+
+
+.title {
+    position: relative;
+    
+  }
+  .title span {
+    color: #141414;
+    font-size: clamp(10px, 4vw, 12px);
+    transition: 0.5s;
+    font-weight: 100;
+    will-change: transform;
+    display: inline-block;
+  }
+  
+  .s1 span {
+    transform-origin: bottom;
+  }
+  .s2 span {
+    transform-origin: top;
+    transform: translateY(100%) rotateX(-90deg);
+  }
+  .s2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .title:hover .s1 span {
+    transform: translateY(-100%) rotateX(-90deg);
+  }
+  .title:hover .s2 span {
+    transform: translateY(0%) rotateX(0deg);
+  }

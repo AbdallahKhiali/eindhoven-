@@ -1,0 +1,36 @@
+.about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.about_description {
+    padding: 50px;
+    font-size: 2.5em;
+    line-height: 1.3em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 100;
+    font-family: 'Okomito',sans-serif;
+
+}
+
+.about_title{
+    padding: 50px;
+    font-size: 1em;
+    line-height: 2em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 100;
+    font-family: 'Okomito',sans-serif;
+
+}

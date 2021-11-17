@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    
+}
+
+.App{
+    background-color: #F7F5F4;
+    height: fit-content;
+    overflow-y: hidden;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.app_img{
+    height: 150vh;
+    /* background-image: url("../src/assets/1.jpeg");
+    background-position: center;
+    background-size: cover; */
+    display: flex;
+    align-items: flex-end;
+    width: 95vw;
+    margin: 0px auto;
+}
